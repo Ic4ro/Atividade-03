@@ -26,7 +26,7 @@ class Funcionario:
                 f"\nRG: {self.rg}"
                 f"\nMatrícula: {self.matricula}"
                 f"\nData de Nascimento: {self.dataNascimento}"
-                f"\nSexo: {self.sexo.value}"
+                f"\nSexo: {self.sexo.nome / self.sexo.sigla}"
                 f"\nSetor: {self.setor.value}"
                 f"\nSalário: {self.salario} R$"
                 f"\nTelefone: {self.telefone}"
